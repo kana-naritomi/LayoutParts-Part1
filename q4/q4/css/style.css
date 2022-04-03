@@ -1,1 +1,63 @@
 @charset "UTF-8";
+
+
+
+.box-wrapper::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.box-wrapper  {
+  width: 100%;
+  margin: 0 0 50px 0;
+  text-align: center;
+  display: flex;
+}
+
+.box-wrapper > div {
+  padding: 20px;
+}
+
+
+.red {
+  background: #ff7b7b;
+  width: 300px;
+  float: left;
+}
+
+.blue {
+  background: #7b86ff;
+  flex:  1;
+  float: left;
+}
+
+.yellow {
+  background: #fff27b;
+  width: 300px;
+  float: left;
+}
+
+.green {
+  background: #7bff91;
+  flex:  1;
+  float: left;
+}
+
+.pink {
+  background: #ff7be2;
+  width: 400px;
+  float: left;
+}
+
+.orange {
+  background: #ffc67b;
+  width: 400px;
+  float: left;
+}
+
+.aqua {
+  background: #7bf2ff;
+  flex:  1;
+  float: left;
+}
